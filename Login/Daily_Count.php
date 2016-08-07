@@ -10,6 +10,7 @@
 
 
 function Daily_cum(){
+    if(isset($_POST["startdate"])){
     $startdate = $_POST['startdate'];
     $enddate = $_POST['enddate'];
     $connection = mysqli_connect("localhost", "root", "" , "boattracker");
@@ -20,6 +21,7 @@ function Daily_cum(){
 
     foreach($result as $value){
         echo "$value <br />";
+    }
     }
 
 }

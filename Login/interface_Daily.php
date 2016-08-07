@@ -22,7 +22,7 @@
         }
     </style>
 </head>
-<body background="1.jpg">
+<body >
 <Br>
 <Br>
 <div class="row">
@@ -37,7 +37,9 @@
 
         <input type="date" name="enddate" ><br><br>
         <input type="submit">
+        <Br>
     </form>
+        <iframe src="Daily_Count.php"></iframe>
     </div>
 </div>
 </div>
